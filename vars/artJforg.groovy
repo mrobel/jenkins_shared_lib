@@ -1,3 +1,4 @@
 def call(){
-    sh 'bash push.sh'
+    sh "chmod +x -R ./push.sh"
+    sh 'bash ./push.sh'
 }
