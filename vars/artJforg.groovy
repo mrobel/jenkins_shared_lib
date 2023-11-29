@@ -1,3 +1,3 @@
 def call(){
-    sh 'bash /tmp/push.sh'
+    sh 'bash push.sh'
 }
