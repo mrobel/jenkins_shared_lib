@@ -1,3 +1,4 @@
 def call(){
-    sh 'bash /tmp/push.sh'
+    sh 'chmod +x push.sh'
+    sh 'bash push.sh'
 }
